@@ -3,8 +3,8 @@ const path = require('path')
 
 const router = express.Router()
 
-router.get('/create', (req, res) => {
-    res.render('create')
+router.get('/createaccount', (req, res) => {
+    res.render('createaccount')
 })
 
 module.exports = router
